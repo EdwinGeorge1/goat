@@ -34,9 +34,13 @@ https://a360.co/3Abcq31
   roslaunch bot_description naviation.launch 
 
 
+
+
 for Moving tables
 run goal.py
 this scripts run all points and ends in home position
+
+
 
 
 for  giving order for seperate tables
