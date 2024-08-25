@@ -1,0 +1,7 @@
+<launch>
+    <node pkg="bot_control" type="data.py" name="reading_laser" output="screen"/>
+    
+    <!-- RViz visualization -->
+    <node name="rviz" pkg="rviz" type="rviz" args="-d $(find bot_control)/rviz/filtered_scan.rviz" output="screen"/>
+</launch>
+

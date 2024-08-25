@@ -1,0 +1,13 @@
+<?xml version="1.0" ?>
+<launch>
+  <!-- Start map server to provide the map -->
+  <arg name="map_file" default="$(find bot_description)/maps/mymap.yaml"/>
+  <node name="map_server" pkg="map_server" type="map_server" args="$(arg map_file)"/>
+
+  <!-- Start AMCL for localization -->
+  <include file="$(find bot_description)/launch/amcl.launch"/>
+
+  <!-- Start move_base for navigation -->
+  <include file="$(find bot_description)/launch/move_base.launch"/>
+</launch>
+

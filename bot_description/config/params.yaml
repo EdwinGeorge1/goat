@@ -1,0 +1,4 @@
+move_base_seq:
+  p_seq: [0.0, 0.0, 0.0, 1.0, 1.0, 0.0, 2.0, 2.0, 0.0]  # Example points
+  yaw_seq: [0.0, 45.0, 90.0]  # Example yaw angles in degrees
+

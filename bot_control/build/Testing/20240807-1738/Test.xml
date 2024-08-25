@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Site BuildName="(empty)"
+	BuildStamp="20240807-1738-Experimental"
+	Name="edwin"
+	Generator="ctest-3.27.1"
+	CompilerName="/usr/bin/c++"
+	CompilerVersion="9.4.0"
+	OSName="Linux"
+	Hostname="edwin"
+	OSRelease="5.15.0-117-generic"
+	OSVersion="#127~20.04.1-Ubuntu SMP Thu Jul 11 15:36:12 UTC 2024"
+	OSPlatform="x86_64"
+	Is64Bits="1"
+	VendorString="GenuineIntel"
+	VendorID="Intel Corporation"
+	FamilyID="6"
+	ModelID="78"
+	ProcessorCacheSize="3072"
+	NumberOfLogicalCPU="4"
+	NumberOfPhysicalCPU="2"
+	TotalVirtualMemory="7812"
+	TotalPhysicalMemory="3785"
+	LogicalProcessorsPerPhysical="2"
+	ProcessorClockFrequency="1991.28"
+	>
+	<Testing>
+		<StartDateTime>Aug 07 23:08 IST</StartDateTime>
+		<StartTestTime>1723052320</StartTestTime>
+		<TestList/>
+		<EndDateTime>Aug 07 23:08 IST</EndDateTime>
+		<EndTestTime>1723052320</EndTestTime>
+		<ElapsedMinutes>0</ElapsedMinutes>
+	</Testing>
+</Site>

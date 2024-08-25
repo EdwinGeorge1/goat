@@ -1,0 +1,14 @@
+# RViz configuration file
+# Add a LaserScan display for the filtered scan topic
+
+Visualization Manager:
+  Global Options:
+    Fixed Frame: base_link
+
+Displays:
+  - Class: rviz/LaserScan
+    Name: Filtered Scan
+    Topic: /filtered_scan
+    Queue Size: 10
+    Color: 255; 0; 0
+
