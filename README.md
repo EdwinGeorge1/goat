@@ -4,8 +4,7 @@ Read Me
 
 https://a360.co/3Abcq31
 
-Question 1
-
+              
 1) a) Workspace - catkin_ws
    b) package   - catkin_ws/src/bot_description
 
@@ -21,7 +20,6 @@ Question 1
    roslaunch bot_description control.launch 
    rosrun teleop_twist_keyboard teleop_twist_keyboard.py
 
-Question 2
 
 2)  pakage - bot_world
 		-worlds
@@ -30,19 +28,23 @@ Question 2
    To launch the gazebo World ( not same in the question)
 		- roslaunch bot_world gazebo_world.launch
 			
-		
-Question 3
-  
-  0 to 120 degree range laser scan  /scan ( changes in Gazebo plugin)
-   To Visualize in Gazebo
-    roslaunch bot_description spawn.launch
 
-Question 4
  
   roslaunch bot_description gazebo.launch
   roslaunch bot_description naviation.launch 
-  Rviz
- 
+
+
+for Moving tables
+run goal.py
+this scripts run all points and ends in home position
+
+
+for  giving order for seperate tables
+ run robot_navigator.py
+ order.py
+load waypints
+
+rosparam load waypoints.yaml
 
 
 
