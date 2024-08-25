@@ -36,14 +36,14 @@ https://a360.co/3Abcq31
 
 
 
-for Moving tables
+6)for Moving tables
 run goal.py
 this scripts run all points and ends in home position
 
 
 
 
-for  giving order for seperate tables
+7) for  giving order for seperate tables
  run robot_navigator.py
  order.py
 load waypints
